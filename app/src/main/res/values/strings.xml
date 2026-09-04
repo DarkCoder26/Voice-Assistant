@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aura</string>
+    <string name="created_by">Created By DarkCoder</string>
+    <string name="developed_by">Developed by DarkCoder</string>
+    <string name="accessibility_service_description">Aura Accessibility Service enables legitimate hands-free device navigation including going Home, Back, viewing Recents, and interacting with UI elements upon voice command.</string>
+</resources>

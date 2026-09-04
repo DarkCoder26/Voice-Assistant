@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer energy ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4080D8FF"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary orbital wave -->
+    <path
+        android:pathData="M54,32 A22,22 0 1,0 54,76 A22,22 0 1,0 54,32"
+        android:strokeWidth="2"
+        android:strokeColor="#70B388FF"
+        android:fillColor="#00000000" />
+
+    <!-- Luminous Voice Core -->
+    <path
+        android:pathData="M54,38 A16,16 0 1,0 54,70 A16,16 0 1,0 54,38">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="38"
+                android:endX="70"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="0.5" android:color="#FF7C4DFF" />
+                <item android:offset="1.0" android:color="#FFFF4081" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center soundwave bars -->
+    <path
+        android:pathData="M44,50 L44,58 M49,46 L49,62 M54,42 L54,66 M59,46 L59,62 M64,50 L64,58"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>
